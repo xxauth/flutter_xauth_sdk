@@ -173,6 +173,11 @@ class XAuth with XAuthError {
     // 先从云端取得 wechatAppId
     var appId = 'aaaaa';
 
+    // TODO 这里的最佳逻辑
+    // methodChannel send("oauthVerify") ---> plugin 委托 oauth-core(android/ios) 处理
+    // oauth-core 可以动态扩展 oauth-core-wechat, oauth-core-sina等
+    // 计划先用友盟做一层快速适配
+
     // 没有注册就注册
     if (!_wxRegistered) {
       await _wechatChannel.invokeMethod("registerApp", {
