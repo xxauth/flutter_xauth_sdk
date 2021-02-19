@@ -583,6 +583,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.0.5"
+  xwechat:
+    dependency: "direct main"
+    description:
+      path: "../../xwechat"
+      relative: true
+    source: path
+    version: "0.0.1"
   yaml:
     dependency: transitive
     description:

@@ -166,16 +166,30 @@ class XAuth with XAuthError {
     ));
   }
 
+  bool _wxRegistered = false;
   MethodChannel _wechatChannel = MethodChannel('plugins.duolacloud/xwechat');
 
-  Future<User> loginByWechat({
-    @required String scope,
-    @required String state
-  }) async {
-    var result = await _wechatChannel.invokeMethod("auth", {
-      "scope": scope,
-      "state": state,
+  Future<User> loginByPlatform(SocialConnection conn) async {
+    // 先从云端取得 wechatAppId
+    var appId = 'aaaaa';
+
+    // 没有注册就注册
+    if (!_wxRegistered) {
+      await _wechatChannel.invokeMethod("registerApp", {
+        "appId": appId,
+        "iOS": true,
+        "android": true,
+      });
+
+      _wxRegistered = true;
+    }
+
+    var result = await _wechatChannel.invokeMethod("sendAuth", {
+      "scope": 'snsapi_userinfo',
+      "state": 'wechat_sdk_demo_test',
     });
+
+    print(result);
 
     return null;
   }

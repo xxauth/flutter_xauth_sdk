@@ -9,6 +9,8 @@ import 'package:provider/provider.dart';
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var xauth = Provider.of<XAuth>(context);
+
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
@@ -39,7 +41,7 @@ class HomeScreen extends StatelessWidget {
               child: RaisedButton(
                 child: Text('微信登录'),
                 onPressed: () async {
-                  User user = await Provider.of<XAuth>(context).loginByWechat(scope: null, state: null);
+                  User user = await xauth.loginByPlatform(SocialConnection.Wechat);
 
                 },
               )
