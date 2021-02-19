@@ -8,7 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="46bea054-a240-4313-93c4-bdd3461057a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/pages/LoginByPhoneScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/pages/LoginByPhoneScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/pages/HomeScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/pages/HomeScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_xauth_sdk.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_xauth_sdk.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/xauth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xauth.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,56 +100,56 @@
       <screen x="1792" y="-255" width="2560" height="1367" />
     </state>
     <state x="2896" y="195" key="#example/lib/main.dart/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613666536622" />
-    <state width="1601" height="293" key="GridCell.Tab.0.bottom" timestamp="1613764542359">
+    <state width="1601" height="293" key="GridCell.Tab.0.bottom" timestamp="1613764979412">
       <screen x="1792" y="-255" width="2560" height="1417" />
     </state>
     <state width="1862" height="293" key="GridCell.Tab.0.bottom/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613670688137" />
-    <state width="1601" height="293" key="GridCell.Tab.0.bottom/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764542359" />
-    <state width="1601" height="293" key="GridCell.Tab.0.center" timestamp="1613764542358">
+    <state width="1601" height="293" key="GridCell.Tab.0.bottom/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764979412" />
+    <state width="1601" height="293" key="GridCell.Tab.0.center" timestamp="1613764979412">
       <screen x="1792" y="-255" width="2560" height="1417" />
     </state>
     <state width="1862" height="293" key="GridCell.Tab.0.center/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613670688137" />
-    <state width="1601" height="293" key="GridCell.Tab.0.center/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764542358" />
-    <state width="1601" height="293" key="GridCell.Tab.0.left" timestamp="1613764542358">
+    <state width="1601" height="293" key="GridCell.Tab.0.center/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764979412" />
+    <state width="1601" height="293" key="GridCell.Tab.0.left" timestamp="1613764979412">
       <screen x="1792" y="-255" width="2560" height="1417" />
     </state>
     <state width="1862" height="293" key="GridCell.Tab.0.left/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613670688137" />
-    <state width="1601" height="293" key="GridCell.Tab.0.left/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764542358" />
-    <state width="1601" height="293" key="GridCell.Tab.0.right" timestamp="1613764542359">
+    <state width="1601" height="293" key="GridCell.Tab.0.left/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764979412" />
+    <state width="1601" height="293" key="GridCell.Tab.0.right" timestamp="1613764979412">
       <screen x="1792" y="-255" width="2560" height="1417" />
     </state>
     <state width="1862" height="293" key="GridCell.Tab.0.right/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613670688137" />
-    <state width="1601" height="293" key="GridCell.Tab.0.right/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764542359" />
-    <state width="1601" height="293" key="GridCell.Tab.1.bottom" timestamp="1613764591242">
+    <state width="1601" height="293" key="GridCell.Tab.0.right/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764979412" />
+    <state width="1601" height="293" key="GridCell.Tab.1.bottom" timestamp="1613764979412">
       <screen x="1792" y="-255" width="2560" height="1417" />
     </state>
     <state width="1862" height="293" key="GridCell.Tab.1.bottom/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613670688067" />
-    <state width="1601" height="293" key="GridCell.Tab.1.bottom/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764591242" />
-    <state width="1601" height="293" key="GridCell.Tab.1.center" timestamp="1613764591241">
+    <state width="1601" height="293" key="GridCell.Tab.1.bottom/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764979412" />
+    <state width="1601" height="293" key="GridCell.Tab.1.center" timestamp="1613764979412">
       <screen x="1792" y="-255" width="2560" height="1417" />
     </state>
     <state width="1862" height="293" key="GridCell.Tab.1.center/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613670688067" />
-    <state width="1601" height="293" key="GridCell.Tab.1.center/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764591241" />
-    <state width="1601" height="293" key="GridCell.Tab.1.left" timestamp="1613764591241">
+    <state width="1601" height="293" key="GridCell.Tab.1.center/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764979412" />
+    <state width="1601" height="293" key="GridCell.Tab.1.left" timestamp="1613764979412">
       <screen x="1792" y="-255" width="2560" height="1417" />
     </state>
     <state width="1862" height="293" key="GridCell.Tab.1.left/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613670688067" />
-    <state width="1601" height="293" key="GridCell.Tab.1.left/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764591241" />
-    <state width="1601" height="293" key="GridCell.Tab.1.right" timestamp="1613764591242">
+    <state width="1601" height="293" key="GridCell.Tab.1.left/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764979412" />
+    <state width="1601" height="293" key="GridCell.Tab.1.right" timestamp="1613764979412">
       <screen x="1792" y="-255" width="2560" height="1417" />
     </state>
     <state width="1862" height="293" key="GridCell.Tab.1.right/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613670688067" />
-    <state width="1601" height="293" key="GridCell.Tab.1.right/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764591242" />
+    <state width="1601" height="293" key="GridCell.Tab.1.right/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613764979412" />
     <state x="2694" y="55" key="SettingsEditor" timestamp="1613666533453">
       <screen x="1792" y="-255" width="2560" height="1367" />
     </state>
     <state x="2694" y="55" key="SettingsEditor/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613666533453" />
     <state x="2694" y="66" key="SettingsEditor/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1612724194491" />
-    <state x="2800" y="249" width="617" height="490" key="find.popup" timestamp="1613761556405">
+    <state x="2800" y="249" width="617" height="490" key="find.popup" timestamp="1613775682352">
       <screen x="1792" y="-255" width="2560" height="1417" />
     </state>
     <state x="2800" y="231" width="617" height="490" key="find.popup/1792.-255.2560.1367/0.23.1792.1047@1792.-255.2560.1367" timestamp="1613670699765" />
-    <state x="2800" y="249" width="617" height="490" key="find.popup/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613761556405" />
+    <state x="2800" y="249" width="617" height="490" key="find.popup/1792.-255.2560.1417/0.23.1792.1047@1792.-255.2560.1417" timestamp="1613775682352" />
     <state x="2891" y="436" width="670" height="676" key="search.everywhere.popup" timestamp="1613763180706">
       <screen x="1792" y="-255" width="2560" height="1417" />
     </state>
@@ -173,6 +177,11 @@
           <url>file://$PROJECT_DIR$/lib/mixins/xauth_error.dart</url>
           <line>4</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/pages/LoginByPhoneScreen.dart</url>
+          <line>99</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

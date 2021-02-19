@@ -3,6 +3,7 @@ library flutter_xauth_sdk;
 import 'dart:async';
 import 'package:dio/dio.dart';
 import 'package:encrypt/encrypt.dart';
+import 'package:flutter/services.dart';
 import 'package:meta/meta.dart';
 import 'package:pointycastle/asymmetric/api.dart';
 

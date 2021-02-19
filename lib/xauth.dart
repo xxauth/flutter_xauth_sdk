@@ -165,4 +165,18 @@ class XAuth with XAuthError {
         }
     ));
   }
+
+  MethodChannel _wechatChannel = MethodChannel('plugins.duolacloud/xwechat');
+
+  Future<User> loginByWechat({
+    @required String scope,
+    @required String state
+  }) async {
+    var result = await _wechatChannel.invokeMethod("auth", {
+      "scope": scope,
+      "state": state,
+    });
+
+    return null;
+  }
 }
