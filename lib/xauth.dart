@@ -60,12 +60,14 @@ class XAuth with XAuthError {
     final MutationOptions _options = MutationOptions(
         documentNode: gql(loginByPhoneCodeMutation),
         variables: {
-          'phone': phone,
-          'code': code,
+          'input': {
+            'phone': phone,
+            'code': code,
+          }
         });
     var result = await _graphQLClientV2.mutate(_options);
     checkForError(result);
-    var user = User.fromJson(result.data['user']);
+    var user = User.fromJson(result.data['loginByPhoneCode']);
     return user;
   }
 
@@ -91,6 +93,7 @@ class XAuth with XAuthError {
     );
 
     var defaultHeaders = {
+      'Content-Type': 'application/json',
       'accept': 'application/json',
       'x-authing-sdk-version': SDK_VERSION,
       'x-authing-userpool-id': _options.userPoolId??'',

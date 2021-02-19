@@ -97,8 +97,13 @@ class LoginByPhoneScreen extends StatelessWidget {
           RaisedButton(
               child: Text('登录'),
               onPressed: () async {
-                User user = await xauth.loginByPhoneCode(phone: _phone, code: _code);
-                Scaffold.of(context).showSnackBar(SnackBar(content: Text(user.username)));
+                try {
+                  User user = await xauth.loginByPhoneCode(phone: _phone, code: _code);
+                  Scaffold.of(context).showSnackBar(SnackBar(content: Text(user.id)));
+                } on XAuthException catch(e) {
+                  Scaffold.of(context).removeCurrentSnackBar();
+                  Scaffold.of(context).showSnackBar(SnackBar(content: Text(e.message)));
+                }
               })
         ],
       ),
