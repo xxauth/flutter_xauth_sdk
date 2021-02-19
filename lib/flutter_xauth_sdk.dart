@@ -1,12 +1,23 @@
 library flutter_xauth_sdk;
 
 import 'dart:async';
-import 'package:flutter_xauth_sdk/models/User.dart';
+import 'package:dio/dio.dart';
+import 'package:encrypt/encrypt.dart';
 import 'package:meta/meta.dart';
+import 'package:pointycastle/asymmetric/api.dart';
 
-part 'xauth_exception.dart';
-// part 'src/auth_metadata.dart';
+import 'package:flutter_xauth_sdk/graphql/mutations/loginByPhoneCodeMutation.dart';
+import 'package:flutter_xauth_sdk/graphql/mutations/loginByUsernameMutation.dart';
+import 'package:flutter_xauth_sdk/graphql/mutations/refreshTokenMutation.dart';
+import 'package:flutter_xauth_sdk/graphql/mutations/resetPasswordMutation.dart';
+
+import 'package:flutter_xauth_sdk/mixins/xauth_error.dart';
+import 'package:flutter_xauth_sdk/models/User.dart';
+import 'package:graphql/client.dart' hide BaseOptions;
+
+export 'models/User.dart';
+export 'mixins/xauth_error.dart';
+
 // part 'src/auth_provider.dart';
-// part 'src/user_info.dart';
 part 'xauth.dart';
-// part 'web_auth.dart';
+part 'options.dart';

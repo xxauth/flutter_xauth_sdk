@@ -12,6 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  provider: ^4.3.3
+
   flutter_xauth_sdk:
     # When depending on this package from a real application you should use:
     #   flutter_xauth_sdk: ^x.y.z
